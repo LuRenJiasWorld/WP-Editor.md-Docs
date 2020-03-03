@@ -1,0 +1,3 @@
+site_name: WP Editor.md Wiki
+theme: material
+extra_css: [style/style.css]
