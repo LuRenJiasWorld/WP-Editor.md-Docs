@@ -1,3 +1,5 @@
 site_name: WP Editor.md Wiki
 theme: material
 extra_css: [style/style.css]
+repo_url: https://github.com/LuRenJiasWorld/WP-Editor.md-Docs
+copyright: Released via <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank">Creative Commons BY-NC-SA License</a> by <a href="https://github.com/LuRenJiasWorld" target="_blank">@LuRenJiasWorld</a>
