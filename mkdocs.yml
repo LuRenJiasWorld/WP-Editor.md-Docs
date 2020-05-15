@@ -1,5 +1,67 @@
-site_name: WP Editor.md Wiki
-theme: material
+site_name: WP Editor.md
+
+theme: 
+  name: material
+  features:
+    - tabs
+  favicon: img/icon.png
+  logo: img/icon.png
+  language: en
+  custom_dir: src
+  
 extra_css: [style/style.css]
-repo_url: https://github.com/LuRenJiasWorld/WP-Editor.md-Docs
+repo_url: https://github.com/LuRenJiasWorld/WP-Editor.md
+edit_uri: https://github.com/LuRenJiasWorld/WP-Editor.md-Docs
+markdown_extensions:
+  - meta
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+
+plugins:
+  - search:
+      lang: 
+        - en
+        - jp
+  - git-revision-date-localized:
+      type: timeago
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/LuRenJiasWorld/WP-Editor.md
 copyright: Released via <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank">Creative Commons BY-NC-SA License</a> by <a href="https://github.com/LuRenJiasWorld" target="_blank">@LuRenJiasWorld</a>
+
+nav:
+  - 主页 | 主頁 | Home: index.md
+  - 文档 | 文檔 | Documentation:
+    - 欢迎 | 歡迎 | Welcome: documentation/index.md
+    - 简体中文: 
+      - 简介: documentation/zh-cn/index.md
+    - 繁體|正體: 
+      - 簡介: documentation/zh-tw/index.md
+    - English: 
+      - Quick start: documentation/en-us/index.md
+  - 参与 | 參與 | Get Involved: 
+    - 参与 | 參與 | Get Involved: support/involve.md
+    - 简体中文: 
+      - 参与开发: support/zh-cn/develop.md
+      - 撰写文档: support/zh-cn/documentation.md
+      - 金钱捐赠: support/zh-cn/donation.md
+      - 加入社区: support/zh-cn/forum.md
+      - 宣传WP Editor.md: support/zh-cn/recommend.md
+    - 繁體|正體: 
+      - 參與開發: support/zh-tw/develop.md
+      - 編寫文檔: support/zh-tw/documentation.md
+      - 金錢捐贈: support/zh-tw/donation.md
+      - 加入社區: support/zh-tw/forum.md
+      - 宣傳WP Editor.md: support/zh-tw/recommend.md
+    - English: 
+      - Develop WP Editor.md: support/en-us/develop.md
+      - Write Documentations: support/en-us/documentation.md
+      - Sponsor WP Editor.md: support/en-us/donation.md
+      - Join The Community: support/en-us/forum.md
+      - Recommend WP Editor.md: support/en-us/recommend.md
