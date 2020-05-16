@@ -1,12 +1,10 @@
 ---
-hero: Home | 首页 | 主頁
+hero: 文档 | 文檔 | Documentation
 ---
 
-# Home | 首页 | 主頁
+# 文档 | 文檔 | Documentation
 
 ![WP Editor.md Logo](../img/logo.png)
-
----
 
 ## 欢迎使用
 
