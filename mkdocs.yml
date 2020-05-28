@@ -6,8 +6,14 @@ theme:
     - tabs
   favicon: img/icon.png
   logo: img/icon.png
+  icon:
+    repo: fontawesome/brands/github-alt
   language: en
   custom_dir: src
+  font: false
+  palette:
+    primary: "blue grey"
+    accent: "blue grey"
   
 extra_css: [style/style.css]
 repo_url: https://github.com/LuRenJiasWorld/WP-Editor.md
@@ -16,6 +22,7 @@ markdown_extensions:
   - meta
   - toc:
       permalink: true
+      slugify: !!python/name:myslugify.slugify
   - admonition
   - codehilite
 
@@ -31,8 +38,13 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/LuRenJiasWorld/WP-Editor.md
+  manifest: manifest.webmanifest
+
 copyright: Released via <a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank">Creative Commons BY-NC-SA License</a> by <a href="https://github.com/LuRenJiasWorld" target="_blank">@LuRenJiasWorld</a>
 
+extra_javascript:
+  - assets/javascript/worker.js
+  
 nav:
   - 主页 | 主頁 | Home: index.md
   - 文档 | 文檔 | Documentation:

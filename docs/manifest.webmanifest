@@ -1,0 +1,22 @@
+{
+	"short_name": "WP Editor.md",
+	"name": "WP Editor.md",
+	"description": "The greatest Markdown editor in WordPress.",
+	"icons": [
+		{
+			"src": "/img/icon_round_mini.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/img/icon_round.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "/",
+	"background_color": "#556D78",
+	"display": "minimal-ui",
+	"scope": "/",
+	"theme_color": "#3367D6"
+}

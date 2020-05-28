@@ -1,0 +1,6 @@
+setup.py
+awesome_awesome_slugify.egg-info/PKG-INFO
+awesome_awesome_slugify.egg-info/SOURCES.txt
+awesome_awesome_slugify.egg-info/dependency_links.txt
+awesome_awesome_slugify.egg-info/top_level.txt
+myslugify/__init__.py

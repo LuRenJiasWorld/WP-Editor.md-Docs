@@ -19,3 +19,24 @@
 .md-header-nav__title {
 	padding: 0 0.4rem;
 }
+
+.md-content img {
+	max-width: 600px;
+    max-height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 5px;
+    border-radius: 14px;
+    margin: auto;
+	padding: 0;
+    width: calc(100% - 20px);
+    object-fit: cover;
+	display: block;	
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+	font-weight: 400;
+}
